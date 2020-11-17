@@ -1,11 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>raskal</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>마켓컬리</title>
+  </head>
+  <body>
+    <header class="market-header">
+      <div class="market-header-container">
+        <a href="#" class="market-shipping-button">수도권 이외 샛별 배송 ></a>
+        <img
+          src="data:image/png;base64,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"
+          alt="main-logo"
+          class="market-main-logo"
+        />
+        <div class="market-main-menu-container">
+          <a href="#" class="market-main-menu-item item-font-red">회원가입</a>
+          <a href="#" class="market-main-menu-item item-border-left">로그인</a>
+          <a href="#" class="market-main-menu-item item-border-left">고객센터</a>
+          <a href="#" class="market-main-menu-item item-border-left">배송지역 검색</a>
+        </div>
+      </div>
+    </header>
+    <nav>네비게이션</nav>
+    <section>섹션1</section>
+    <section>섹션2</section>
+    <section>섹션3</section>
+    <section>섹션4</section>
+    <footer>풋터</footer>
+  </body>
 </html>

@@ -1,0 +1,56 @@
+body{
+    font-size: 12px;
+    color: black ;
+}
+
+a{
+    text-decoration: none;
+}
+
+.market-header {
+  
+    display: flex;
+    justify-content: center;
+}
+.market-header-container{
+width: 1060px;
+    display: flex;
+justify-content: space-between;
+
+
+}
+
+
+.market-main-logo{
+    width: 200px;
+    height: 100px;
+}
+.market-shipping-button{
+    width: 160px;
+    height: 22px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    
+}
+.market-main-menu-container{
+margin-top: 10px;
+
+
+}
+
+.market-main-menu-item {
+    color: black;
+    padding-left: 14px;
+    padding-right: 14px;
+   
+}
+.item-border-left{
+    border-left: 1px solid black;
+}
+.item-font-red{
+    color: crimson;
+}
