@@ -24,11 +24,12 @@ justify-content: space-between;
 .market-main-logo{
     width: 200px;
     height: 100px;
+    position: relative;
 }
 .market-shipping-button{
     width: 160px;
     height: 22px;
-    border: 1px solid black;
+    border: 1px solid rgb(170, 156, 156);
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -37,19 +38,19 @@ justify-content: space-between;
     
 }
 .market-main-menu-container{
-margin-top: 10px;
+margin-top: 5px;
 
 
 }
 
 .market-main-menu-item {
     color: black;
-    padding-left: 14px;
-    padding-right: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
    
 }
 .item-border-left{
-    border-left: 1px solid black;
+    border-left: 1px solid gray;
 }
 .item-font-red{
     color: crimson;
